@@ -4,7 +4,7 @@ self.addEventListener('install', (e) => {
             '/momec/',
             '/momec/index.html',
             '/momec/index.js',
-            '/momec/sound_source/*'
+            '/momec/sound_source/1.mp3'
         ])),
     );
 });

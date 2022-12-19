@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="https://milujempracu.sk/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <title>Milujem svoju prácu!</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="root">
+        <div class="container mx-auto p-5 h-full">
+            <h1 class="text-4xl pt-10">Milujem svoju prácu!</h1>
+            <h4 class="text-1xl text-slate-500 pb-5">Relaxačná aplikácia prospievajúca k zlepšeniu psychickej kondície zamestnanca.
+            </h4>
+            <div class="flex flex-wrap">
+                <a id="ano_mali_by_sme" class="soundButton sm:h-40 sm:w-40 hover:border-gray-700 border-transparent">
+                    Áno, mali by sme!
+                </a>
+            </div>
+            <div class="text-xs py-5 italic text-slate-500">
+                inšpirované <a href="http://milujipraci.cz/">http://milujipraci.cz</a>
+                <br>kontakt
+                <a href="mailto:ministerstvozbytocnychveci@trnavka.sk">ministerstvozbytocnychveci@trnavka.sk</a>
+                <br>verzia 0.0.1 (ano-mali-by-sme)
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<script>
+    document.getElementById("ano_mali_by_sme").addEventListener("click", function() {
+        var audio = new Audio('sound_source/ano_mali_by_sme.mp3');
+        audio.play();
+    });
+</script>

@@ -23,6 +23,12 @@
                 <a id="1" class="soundButton sm:h-40 sm:w-40 hover:border-gray-700 border-transparent">
                     Áno, mali by sme!
                 </a>
+                <a id="2" class="soundButton sm:h-40 sm:w-40 hover:border-gray-700 border-transparent">
+                    Konečne si nájdeš nejakú kočku!
+                </a>
+                <a id="3" class="soundButton sm:h-40 sm:w-40 hover:border-gray-700 border-transparent">
+                    Poviem Vám to úprimne!
+                </a>
             </div>
             <div class="text-xs py-5 italic text-slate-500">
                 inšpirované <a href="http://milujipraci.cz/">http://milujipraci.cz</a>
@@ -41,6 +47,14 @@
 <script>
     document.getElementById("1").addEventListener("click", function() {
         var audio = new Audio('sound_source/1.mp3');
+        audio.play();
+    });
+    document.getElementById("2").addEventListener("click", function() {
+        var audio = new Audio('sound_source/2.mp3');
+        audio.play();
+    });
+    document.getElementById("3").addEventListener("click", function() {
+        var audio = new Audio('sound_source/3.mp3');
         audio.play();
     });
 </script>

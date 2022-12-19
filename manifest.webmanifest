@@ -1,0 +1,13 @@
+{
+    "background_color": "purple",
+    "description": "Momec by Patrik Fejda",
+    "display": "fullscreen",
+    "icons": [{
+        "src": "favicon.ico",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "name": "Momec",
+    "short_name": "Momec",
+    "start_url": "/momec/index.html"
+}
